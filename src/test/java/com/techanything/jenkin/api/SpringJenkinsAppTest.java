@@ -17,6 +17,7 @@ public class SpringJenkinsAppTest {
 
 	@Test
 	public void contextLoads() {
+		logger.info("Testing Spring CICD activities...");
 		logger.info("Test case executing...");
 		assertEquals(true, true);
 	}
